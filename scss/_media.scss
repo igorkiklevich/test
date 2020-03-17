@@ -1,7 +1,9 @@
 @media(max-width:665px){
     .form-container{
         max-width:100%;
-       
+        top: 0;
+        transform: none;
+        left: 0;
     }
     .main-form__item:first-child{
         margin-right: 0;
@@ -21,9 +23,6 @@
 @media(max-width:520px){
     .form-container{
         flex-direction: column;
-        top: 0;
-        transform: none;
-        left: 0;
     }
     .form-container__left{
         width: 100%;
