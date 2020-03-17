@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: $font2;
+    font-style: normal;
+    overflow-x: hidden;
+    background: $lightgray;
+}
+
+a {
+    transition: all .3s;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    outline: none;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    font-family: $font2;
+}
+
+input::-webkit-input-placeholder {
+    line-height: normal !important;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
